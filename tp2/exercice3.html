@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Liste horizontale</title>
+
+    <style>
+        /* Cadre */
+        .cadre {
+            width: 510px;
+            border: 1px solid black;
+            margin: 20px auto;
+        }
+
+        /* Titre */
+        h1 {
+            margin: 5px;
+        }
+
+        /* Liste horizontale */
+        .menu {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            padding: 0;
+        }
+
+        /* Les éléments de la liste */
+        .menu li a {
+            display: block;
+            background-color: green;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        /* Au survol */
+        .menu li a:hover {
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="cadre">
+
+        <h1>Liste horizontale</h1>
+
+        <ul class="menu">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Qui sommes-nous</a></li>
+            <li><a href="#">Activités</a></li>
+            <li><a href="#">Contactez-nous</a></li>
+        </ul>
+
+    </div>
+
+</body>
+</html>
