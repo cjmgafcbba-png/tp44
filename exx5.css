@@ -1,0 +1,85 @@
+body {
+    background-color: #5483b1;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+}
+h1 {
+    text-align: center;
+    color: #141414;
+    margin-bottom: 30px;
+}
+.carte {
+    width: 600px;
+    max-width: 90%;
+    margin: auto;
+    padding: 25px;
+    
+    background-color: rgb(201 231 226);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(131, 92, 92, 0.15);
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    position: relative;
+}
+.carte img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(139, 89, 89, 0.2);
+    transition: transform 0.3s;
+}
+.carte img:hover {
+    transform: scale(1.05);
+}
+.informations {
+    flex: 1;
+}
+.informations h2 {
+    color: #0c293d;
+    margin-top: 10px;
+}
+.informations h3 {
+    color: #34495e;
+}
+.informations p {
+    color: #362323;
+    line-height: 1.6;
+}
+ul {
+    padding-left: 20px;
+}
+li {
+    margin-bottom: 8px;
+    color: #241c1c;
+}
+.badge {
+    position: absolute;
+   top: 34%;
+    background-color: #27ae60;
+    color: rgb(20, 12, 12);
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.contact {
+    font-weight: bold;
+    color: #2d353a !important;
+}
+  (max-width: 600px) {
+    .carte {
+        flex-direction: column;
+        text-align: center;
+    }
+    .carte img {
+        width: 150px;
+        height: 150px;
+    }
+    .badge {
+        top: 10px;
+        right: 10px;
+    }
+}

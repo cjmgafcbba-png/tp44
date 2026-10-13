@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #8a6464;
+    padding: 30px;
+}
+img {
+    width: 600px;                     
+    max-width: 100%;                   
+    height: auto;                      
+    border-radius: 15px;               
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); 
+    margin: 20px auto;                 
+    display: block;
+    transition: transform 0.3s ease;   
+}
+img:hover {
+    transform: scale(1.03);          
+    box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+}
