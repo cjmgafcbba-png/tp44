@@ -1,0 +1,189 @@
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    width: 100%;
+}
+/* Barre de navigation */
+header {
+    background-color: #202b49;
+    width: 100%;
+}
+nav {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 12px 20px;
+}
+nav h2 {
+    color: #ffb52e;
+    font-size: 20px;
+    margin-right: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+nav a:hover {
+    color: #ffb52e;
+}
+/* Section d'accueil */
+.hero {
+    background-color: #ffe6dc;
+    text-align: center;
+    padding: 55px 15px;
+}
+.hero h1 {
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+.hero p {
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.btn,
+button {
+    display: inline-block;
+    background-color: #ff7048;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+.btn:hover,
+button:hover {
+    background-color: #e85b35;
+}
+/* Contenu principal */
+main {
+    width: 100%;
+    
+}
+section h3 {
+    text-align: center;
+    color: #202b49;
+    font-size: 19px;
+    margin-bottom: 25px;
+}
+/* Cartes des produits */
+.produits {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 35px;
+}
+.carte {
+       background-color: white;
+    width: 21%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #00000020;display: inline-block;
+}
+.carte img {
+      
+    width: 100%;
+    height: 200px;
+    margin: 0 auto 8px;
+    object-fit: contain;
+
+}
+.carte h4 {
+    color: #202b49;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.carte p {
+    color: #e74c3c;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+/* Catégories */
+.categories {
+    max-width: 850px;
+    margin: 0 auto 30px;
+    background-color: white;
+    border-left: 4px solid #ff7048;
+    padding: 20px;
+}
+.categories ul {
+    padding-left: 20px;
+    font-size: 13px;
+    line-height: 1.8;
+}
+/* Tableau des prix */
+.prix {
+    max-width: 1100px;
+    margin: 0 auto 30px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    text-align: center;
+    font-size: 12px;
+}
+th {
+    background-color: #202b49;
+    color: white;
+    padding: 12px;
+}
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+/* Formulaire de commande */
+#commande form {
+    max-width: 780px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #00000020;
+}
+ label {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 9px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+form textarea {
+    height: 55px;
+    resize: vertical;
+}
+form button {
+    display: block;
+    margin: 0 auto;
+}
+/* Pied de page */
+footer {
+    background-color: #202b49;
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+    font-size: 12px;
+    width: 100%;
+}
